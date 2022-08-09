@@ -126,7 +126,7 @@ class listDataset(Dataset):
 
                 target['labels'] = torch.ones([1, num_points]).squeeze(0).type(torch.LongTensor)
                 target['points_macher'] = torch.true_divide(points, width).type(torch.FloatTensor)
-                target['points'] = torch.true_divide(points[:, 0:self.args['num_box']], width).type(torch.FloatTensor)
+                target['points'] = torch.true_divide(points[:, 0:self.args['channel_point']], width).type(torch.FloatTensor)
 
                 imgs.append(sub_img)
                 targets.append(target)
