@@ -63,7 +63,7 @@ or
 Example:   
 ```python video_demo.py --video_path ./video_demo/demo.mp4 --num_queries 700 --pre video_model.pth```  
 
-* The ```"video_model.pth"``` (trained from NWPU-Crowd training set) can be downloaded from [here](https://pan.baidu.com/s/1ifubiFbj8u63pX3qt3F5rQ), password: rw6b 
+* The ```"video_model.pth"``` (trained from NWPU-Crowd training set) can be downloaded from [here](https://pan.baidu.com/s/1ifubiFbj8u63pX3qt3F5rQ), password: rw6b or [here](https://drive.google.com/file/d/1bccQIMeYBrEsgLAbWgxFE2sOsEhE2EKC/view?usp=sharing). 
 * The generated video will be named ```"out_video.avi"```  
 
 ![avatar](./images/intro.jpeg)  
