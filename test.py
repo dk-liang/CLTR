@@ -2,9 +2,9 @@ from __future__ import division
 
 import os
 import warnings
-
+import torch
 from config import return_args, args
-
+torch.cuda.set_device(int(args.gpu_id[0]))
 os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu_id
 import torch.nn as nn
 from torchvision import transforms
