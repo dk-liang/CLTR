@@ -20,7 +20,7 @@ tensorboard
 
 # Datasets
 - Download JHU-CROWD ++ dataset from [here](http://www.crowd-counting.com/)  
-- Download NWPU-Crowd dataset (resized) from [here](https://pan.baidu.com/s/1aqiLFU6lo3F_HqeT6wbEjg), password: 04i4
+- Download NWPU-Crowd dataset (resized) from [Baidu](https://pan.baidu.com/s/1aqiLFU6lo3F_HqeT6wbEjg), password: 04i4 or [Onedrive](https://1drv.ms/u/s!Ak_WZsh5Fl0lhF0V7sxTVv1Vs0Aq?e=drd48k)
 
 # Prepare data
 ## Generate point map
